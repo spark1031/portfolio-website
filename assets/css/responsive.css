@@ -17,9 +17,43 @@ Version      : 1.0
     .single-project-done {
         text-align: center;
     }
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .about-image {
+        display: none;
+        visibility: hidden;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .about-image {
+        display: none;
+        visibility: hidden;
+    }
+
     .about-image img {
         margin-top: 30px;
     }
+
+    .history-section {
+        width: 100%;
+    }
+
     .single-testimonial p {
         padding: 0 50px;
     }
@@ -51,10 +85,11 @@ Version      : 1.0
         visibility: visible;
     }
     .navbar-toggle .icon-bar {
-        background: #FFCB2F;
+        margin-top: 20px;
+        background: rgb(91, 168, 163);
     }
     .menu-bg .navbar-toggle .icon-bar {
-        background: #FFCB2F;
+        background: rgb(91, 168, 163);
     }
     .navbar-toggle {
         margin-right: 0px;
@@ -67,10 +102,10 @@ Version      : 1.0
         padding: 11px 15px;
     }
     .mainmenu .navbar-nav li a:hover {
-        color: #FFCB2F;
+        color: rgb(91, 168, 163);
     }
     .menu-bg .mainmenu .navbar-nav li a:hover {
-        color: #FFCB2F;
+        color: rgb(91, 168, 163);
     }
     .menu-bg .mainmenu .navbar-nav li a {
         padding: 11px 15px;
@@ -100,9 +135,34 @@ Version      : 1.0
     .section-title h2 {
         font-size: 22px;
     }
-    .about-text h2 {
-        font-size: 22px;
+
+    .about-main {
+        display: flex;
+        flex-direction: column;
     }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .about-image {
+        display: none;
+        visibility: hidden;
+    }
+
+    .about-text h2 {
+        font-size: 16px;
+        text-align: center;
+    }
+    .about-text p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .history-section {
+        width: 100%;
+    }
+
     .single-testimonial p {
         padding: 0 10px;
     }

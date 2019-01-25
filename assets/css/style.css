@@ -407,6 +407,7 @@ strong.text-rotator span {
 }
 
 .logo img {
+    min-width: 20px;
     width: 10%;
     height: 10%;
 }
